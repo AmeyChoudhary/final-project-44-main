@@ -1,16 +1,14 @@
 # Distributed File System
 
-### Team Information
-
 #### Team Members:
 
 - Amey Choudhary 
 - Jainit Bafna 
 - Yash Bhaskar
 
-We have designed and developed a distributed file system, which allows users to perform file operations and file management on files stored over distributed storage servers. The system integrates multiple storage servers and simplifies the user experience, akin to being on a single server. It has been implemented in C.
+We have designed and developed a distributed file system, which allows users to perform file operations and file management on files stored over distributed storage servers. The system integrates multiple storage servers and simplifies the user experience, akin to being on a single server. It has been implemented in C. The following is the [Project Description](https://karthikv1392.github.io/cs3301_osn/project/).
 
-####
+#### 
 High-Level Modules
 Client Module - handles client interactions, such as reading, writing, and obtaining information about files.
 Naming Server Module - the central server that manages directories and file locations.
