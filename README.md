@@ -1,19 +1,16 @@
-# final-project-44
+# Distributed File System
 
 ### Team Information
 
-#### Team Number : 44
 #### Team Members:
 
-- Amey Choudhary , 2021113017
-- Jainit Bafna ,  2021114003
-- Yash Bhaskar ,  2021114012
+- Amey Choudhary 
+- Jainit Bafna 
+- Yash Bhaskar
 
-#### Disclaimer: We have used AI-powered tools, like ChatGPT and GitHub Copilot.
+We have designed and developed a distributed file system, which allows users to perform file operations and file management on files stored over distributed storage servers. The system integrates multiple storage servers and simplifies the user experience, akin to being on a single server. It has been implemented in C.
 
-Given the complexity and length of a complete implementation for the described Network File System (NFS) with Naming and Storage servers, it's impractical to write the entire code within this format. However, I can guide you through a high-level approach, describe the modules you'll need, outline the functions that each module should contain, and give you code snippets or pseudocode for key parts. You can then use this as a blueprint to implement the entire system.
-
-
+####
 High-Level Modules
 Client Module - handles client interactions, such as reading, writing, and obtaining information about files.
 Naming Server Module - the central server that manages directories and file locations.
