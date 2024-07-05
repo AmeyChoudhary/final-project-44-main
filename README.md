@@ -21,14 +21,12 @@ We have designed and developed a distributed file system, which allows users to 
 8. Redundancy Module - handles redundancy and replication of data.
 9. Logging Module - for logging and message display.
 
-
-
 ### Instructions to run our NFS
 
 To run our NFS, we have provided a script file, 'make.sh'. On running it, it shall compile and run the newly compiled files: client, naming server and storage server (by default 3 storage servers). 
 
 
-### Functionality of our NFS 
+### Functionality of our NFS for client
 
 1. Reading, Writing and Getting Size of a file.
 2. Creating and Deleting a file.
@@ -36,78 +34,3 @@ To run our NFS, we have provided a script file, 'make.sh'. On running it, it sha
 4. Listing files in a directory.
 
 
-
-
-Client Module Functions
-connectToNamingServer()
-sendReadRequest()
-sendWriteRequest()
-sendInfoRequest()
-sendCreateRequest()
-sendDeleteRequest()
-sendCopyRequest()
-
-
-Naming Server Module Functions
-initializeNamingServer()
-registerStorageServer()
-handleClientRequest()
-instructStorageServer()
-searchForFile()
-cacheSearchResult()
-detectStorageServerFailure()
-handleReplication()
-
-
-Storage Server Module Functions
-initializeStorageServer()
-reportToNamingServer()
-handleRequestFromNamingServer()
-readFile()
-writeFile()
-getFileInfo()
-createFileOrDirectory()
-deleteFileOrDirectory()
-copyFileOrDirectory()
-
-
-Communication Module Functions (Using TCP Sockets)
-openSocket()
-acceptConnection()
-readFromSocket()
-writeToSocket()
-closeSocket()
-
-
-
-Concurrency Module Functions
-processMultipleRequests()
-lockFileForWrite()
-unlockFile()
-
-
-
-Error Handling Module Functions
-defineErrorCodes()
-handleError()
-
-
-
-Search Optimization Module Functions
-performEfficientSearch()
-implementLRUCache()
-
-
-
-Redundancy Module Functions
-replicateData()
-restoreFromReplica()
-asynchronousReplication()
-
-
-
-Logging Module Functions
-logRequest()
-logAck()
-logError()
-displayMessage()
