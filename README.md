@@ -80,7 +80,7 @@ We have designed and developed a distributed file system, which allows users to 
 9. Logging Module - for logging and message display.
 
 
-### Instructions to run our NFS
+## Instructions to run our NFS
 
 To run our NFS, we have provided a script file, 'make.sh'. On running it, it shall compile and run the newly compiled files: client, naming server and storage server (by default 3 storage servers). 
 
