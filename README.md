@@ -14,9 +14,6 @@ We have designed and developed a distributed file system, which allows users to 
 ### Design of our NFS
 
 #### Key Features
-## NFS: Network File System Breakdown
-
-This document outlines the design of a Network File System (NFS). Here's a breakdown of the key components and functionalities:
 
 **Initialization:**
 
