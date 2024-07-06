@@ -71,7 +71,7 @@ We have designed and developed a distributed file system, which allows users to 
 
 
 
-#### High-Level Modules and Descriptions:
+### High-Level Modules and Descriptions:
 1. Client Module - handles client interactions, such as reading, writing, and obtaining information about files.
 2. Naming Server Module - the central server that manages directories and file locations.
 3. Storage Server Module - responsible for the actual data storage and file operations.
@@ -81,15 +81,6 @@ We have designed and developed a distributed file system, which allows users to 
 7. Search Optimization Module - optimizes search operations within the Naming Server.
 8. Redundancy Module - handles redundancy and replication of data.
 9. Logging Module - for logging and message display.
-
-
-
-### Functionality of our NFS for client
-
-1. Reading, Writing and Getting Size of a file.
-2. Creating and Deleting a file.
-3. Copying files.
-4. Listing files in a directory.
 
 
 ### Instructions to run our NFS
