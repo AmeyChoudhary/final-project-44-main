@@ -8,7 +8,8 @@
 
 We have designed and developed a distributed file system, which allows users to perform file operations and file management on files stored over distributed storage servers. The system integrates multiple storage servers and simplifies the user experience, akin to being on a single server. Our file system consists of various modules to ensure concurrency, redundancy, logging, search optimisation and error handling. It has been implemented in C. The following is the [Project Description](https://karthikv1392.github.io/cs3301_osn/project/).
 
-[![NFS design](https://www.researchgate.net/profile/Zhang-Jianbo-2/publication/348387085/figure/fig4/AS:981518453309440@1611023643650/The-overview-of-the-Hadoop-Distributed-File-System-HDFS.ppm)
+![image](https://github.com/AmeyChoudhary/final-project-44-main/assets/102692017/d88c5438-2f5c-4d6f-a003-db1a772375cd)
+
 
 ### Design of our NFS
 
