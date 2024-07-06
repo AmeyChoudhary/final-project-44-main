@@ -11,7 +11,7 @@ We have designed and developed a distributed file system, which allows users to 
 ![image](https://github.com/AmeyChoudhary/final-project-44-main/assets/102692017/d88c5438-2f5c-4d6f-a003-db1a772375cd)
 
 
-## Design of our NFS
+## An overview of our NFS
 
 ### Key Features
 
